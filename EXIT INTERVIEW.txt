@@ -1,0 +1,44 @@
+SUB 1 TO-DO LIST
+1. I'm working on a to-do list project. the application that is used to record the tasks to be done on a certain date. and can display notifications when there is a task to be done.
+
+2. The most difficult part in my opinion is the room database, previously it was not difficult but more complicated. because in the room database we create many components starting from the table configuration, the dao class, to the room database configuration.
+
+3 The component used to display tasks is the recycler view
+
+4 how the reminder notification works is that when one of the tasks that have been set has arrived a notification will appear and the notification manager will run
+
+5 so that the appearance can be edited according to the wishes of the application developer.
+
+
+
+=======================================================================================
+SUB 2  SCHEDULING
+1. I am working on a scheduling project. application that is used to write a schedule that will be done on a certain date.
+
+2. The most difficult part in my opinion is creating the data space, previously it was not difficult but more complicated. because in data space we have to create dao class, table configuration, create database class.
+
+3 first, set the theme resource first, switch is day night theme, then make a shared preference, setting in the settings menu, then set the
+status preference setting in activity that is first opened
+
+4 notification reminder work when we activate the toggle switch button, and then the today schedule appears on notification
+panel, when we click on notification panel, will do on intent to home activity.
+
+
+5. Why do we need LiveData?
+we need livedata to prevent data changes by prevent the ui update on the appearing data that has been listed to the ui that caused by lifecycle changes due to soem condition like changing the app orientation. live data also prevent memory leaks, prevent app crashes that caused by stopped activities, reduce manual lifecycle handling, the data always up to date, and so on.
+
+
+
+===============================================================================
+SUB 3 HABBIT TRACKER
+1. The project I am working on is making a habit tracker application. i.e. countdown timer application which is based on various scheduled activities that have been inputted and this Application can prioritize each task habit schedule
+
+2. The hardest part for me is when new data is sent to the adapter and updates the data when the function is on. sometimes you can, sometimes you can't, currently I'm still confused, and then as usual in complicated data rooms
+
+3.The flow of displaying random habits is shuffling the list of habit indexes. then pass data by creating view and bind data to countdown activity using adapter
+
+4.how the reminder notification works is that the 
+first from the main activity we have to press the settings menu first to direct it to the activity settings
+then when the tool button is clicked and is in active condition it will trigger the work manager which in the work manager there is a notification calling process. then when the toggle button is deactivated again. the notification will no longer appear
+
+5. We use the viw model so that the display code and logic are separate, easier to maintain in the future, and the data will not be destroyed even if the UI of the application is destroyed.

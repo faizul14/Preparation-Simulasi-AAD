@@ -1,0 +1,52 @@
+What project have you worked about?
+Which part is hardest?
+What components have been used to show a list of tasks?
+How does notification reminder work?
+Why do we need a Custom View?
+
+The project that i'm working about is making a simple todo list app using local database room and have the notification reminder
+
+the hardest part is the todo 14 when set to show notification of the nearest active task when using pending intent because
+
+the components that have been used to show a list of tasks are recyclerview and adapter of the layout to help render it on the taskactivity
+
+the work of notification reminder is getting the nearest active task first then show the alarm notification after getting the nearest due task
+
+we need a custom view when we wanna use functions that are not provided in android sdk, and also using customview can help to improve the performance of the layout rendering
+
+
+
+How does notification reminder work?
+
+
+
+1. What project have you worked about?
+The project that i've been worked about is making a course scheduler app which can input the course with start and end time and also lecturer name and note. This scheduler apps have a notification reminder when it's near to the start time.
+
+2. Which part is hardest?
+The hardest part is when adding new activity which the add course activity, the reason behind this is because i found quite a lot bugs like the course cannot added succesfully to the list and when performing to add the new schedule the program has crash or force close.
+
+3. How is the flow to change the theme to a dark theme?
+The flow to change the theme to dark theme is set the theme on res values style.xml using DayNight theme that has been provided and after that call into the activity using oncinfigurationchanged method that have the settings to choose wether user want to use  the light mode or night mode or let the system choose by the system theme 
+
+4. How does notification reminder work?
+notification reminder works as a information that appears when there are some priorities that the apps want to show the information. the flow of the notification reminder is getting the nearest datee and time course schedule to the current time and show the notification on the status bar
+
+5. Why do we need LiveData?
+we need livedata to prevent data changes by prevent the ui update on the appearing data that has been listed to the ui that caused by lifecycle changes due to soem condition like changing the app orientation. live data also prevent memory leaks, prevent app crashes that caused by stopped activities, reduce manual lifecycle handling, the data always up to date, and so on. 
+
+
+1. What project have you worked about?
+The project that i've been worked about is making a habit tracker app which is a countdown timer app that based on the various scheduled activities that have been inputed by the user. This app also can categorize the priorities of each task habit schedule
+
+2. Which part is hardest?
+The hardest part when i'm building this app is when submitting the pagedlist to the adapter and update database when onCheckChange the reason behind it is i found some app abnormality when updating the data because it's not work well but there's no error found on the IDE so because of this i code again from the first state
+
+3. How is the flow of showing random habit using ViewPager2?
+the flow of showing random habit is shuffle the index list of the habits and after that pass the data by creating view and bind data to the countdown activity using adapter 
+
+4. How does notification reminder work?
+notification reminder works as a information that appears when there are some priorities that the apps want to show the information. The flow  of the notification reminder is show the information to the user when the countdown of habit that has been choosed tostart with by the user is ended.
+
+5. Why do we need a ViewModel?
+We need to use ViewModel because view model is the translator of the data from model into the view layer that have some benefits like separation of concerns. This is really beneficial because if we gonna have some changes on our app like adding the features or fixing the bug, the code is more efficiently debugged or improved because it has its own place to code with.
